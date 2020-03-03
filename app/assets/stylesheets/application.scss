@@ -21,15 +21,24 @@ body > .alert {
 	margin-bottom: 0;
 }
 
+.container-fluid {
+	padding-left: 3.5rem;
+	padding-right: 3.5rem;
+}
+
 .nav-style {
 	background: #3e4149;
 	color: white;
 }
 
+.navbar {
+	padding: 0.75rem;
+}
+
 .navbar-brand {
-	color: #3490de;
+	color: white;
 }
 
 .nav-link {
-	color: #3490de;
+	color: white;
 }

@@ -88,6 +88,7 @@ export default {
 .list {
   background: #3e4149;
   color: white;
+  border-radius: .5rem;
 }
 
 </style>

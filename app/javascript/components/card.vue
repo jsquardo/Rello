@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div @click="editing=true" class="card card-body mb-3">
+    <div @click="editing=true" class="card card-body text-color mb-3">
       {{card.name}}
     </div>
 
@@ -59,5 +59,7 @@ export default {
 </script>
 
 <style scoped>
-
+.text-color {
+  color: #444f5a;
+}
 </style>

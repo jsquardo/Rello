@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20171128191446) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "announcements", force: :cascade do |t|
     t.datetime "published_at"
     t.string "announcement_type"
@@ -22,7 +25,7 @@ ActiveRecord::Schema.define(version: 20171128191446) do
   end
 
   create_table "cards", force: :cascade do |t|
-    t.integer "list_id"
+    t.bigint "list_id"
     t.string "name"
     t.integer "position"
     t.datetime "created_at", null: false

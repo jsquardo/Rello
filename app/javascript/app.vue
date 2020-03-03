@@ -88,7 +88,8 @@ export default {
 }
 
 .list {
-  background: #E2E4E6;
+  background: #3e4149;
+  color: white;
   border-radius: 3px;
   display: inline-block;
   margin-right: 20px;

@@ -81,7 +81,13 @@ export default {
 
 <style scoped>
 .dragArea {
+  background: #444f5a;
   min-height: 10px;
+}
+
+.list {
+  background: #3e4149;
+  color: white;
 }
 
 </style>

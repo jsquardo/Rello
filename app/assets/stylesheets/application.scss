@@ -10,13 +10,26 @@
 
 // Fixes bootstrap nav-brand container overlap
 @include media-breakpoint-down(xs) {
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-  }
+	.container {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
-  margin-bottom: 0;
+	margin-bottom: 0;
+}
+
+.nav-style {
+	background: #3e4149;
+	color: white;
+}
+
+.navbar-brand {
+	color: #3490de;
+}
+
+.nav-link {
+	color: #3490de;
 }

@@ -1,24 +1,15 @@
-# README
+<p align="center">
+  <img width="200" src="https://user-images.githubusercontent.com/12801900/75801744-a0344f80-5d49-11ea-875e-ab913a7fd386.png">
+</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is Rello?
+Rello is a Trello clone that I made using Vue on the frontend along with Ruby on Rails on the backend.
 
-Things you may want to cover:
+## What can it do?
+- User Auth
+- Create columns with a Title
+- Create cards in those columns
+- Drag and Drop cards to different rows.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Built With
+This project was built with Vue and Ruby on Rails.
